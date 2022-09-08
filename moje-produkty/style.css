@@ -1,0 +1,108 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #000b40, black);
+    margin: 20px;
+}
+
+div {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #ff00d5;
+    margin-bottom: 0;
+    font-size: 45px;
+}
+
+h2 {
+    color: #8700be;
+    margin-top: 0;
+    font-size: 25px;
+}
+
+h3 {
+    color: #00ff2a;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    margin-top: 0;
+}
+
+.correct-os {
+    border: 2px rgb(115, 255, 0) solid;
+}
+
+.ok-os {
+    border: 2px rgb(238, 255, 0) solid;
+}
+
+.bad-os {
+    border: 2px rgb(255, 60, 0) solid;
+}
+
+#title-paragraph > * {
+    font-size: 25px;
+}
+
+a {
+    color: deepskyblue;
+}
+
+button {
+    background-color: black;
+    color: greenyellow;
+    border: #00ff2a 2px solid;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.win-image {
+    height: 60px;
+    width: auto;
+}
+
+.warning {
+    color: orangered;
+}
+
+.no-bg {
+    opacity: 1;
+}
+
+@media (min-width: 800px) {
+    .flex {
+        display: flex;
+    }
+}
+
+@media (hover: hover) and (min-width: 1200px) {
+    button, div {
+        opacity: 0.8;
+        transition: 0.3s ease-in-out;
+    }
+
+    button:hover {
+        transform: scale(1.07);
+        opacity: 1;
+    }
+
+    div:hover {
+        transform: scale(1.02);
+        opacity: 1;
+    }
+}
